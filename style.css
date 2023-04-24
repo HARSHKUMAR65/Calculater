@@ -1,0 +1,51 @@
+.hh{
+    border: 2px solid black;
+    font-family: cursive;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+}
+*{
+    background-color: black;
+    color: white;
+}
+.button{
+    justify-content: center;
+    display: inline block;
+    height:90px;
+    width: 90px;
+    background-color: gray;
+    color: white;
+}
+.input{
+    height: 50px;
+    width: 360px;
+    background-color: gray;
+}
+.container{
+    border: 2px solid black;
+    text-align: center;
+    
+}
+#oo{
+    border: 2px solid black;
+}
+@media only screen and (max-width: 700px) {
+
+    #oo {
+    
+          width:400px;
+    
+          height:500px;
+    
+    }
+    .button{
+        height: 50px;
+        width: 50px;
+    }
+    .input{
+        height: 40px;
+        width: 210px;
+    }
+    
+    }
